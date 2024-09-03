@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <!-- Container Box -->  
+    <div id="container">
+        <form id="form-box">
+            <h1>Login Form</h1>
+            <div class="input-text">
+                <input type="text" id="uname" name="uname" placeholder="Username" required><br>
+                <input type="password" id="pass" name="password" placeholder="Password" required><br>
+                
+                <!-- Remember Me and Forgot Password -->
+                <div class="options">
+                    <div class="remember-me">
+                        <input type="checkbox" id="checkbox" name="remember">
+                        <label for="checkbox">Remember Me</label>
+                    </div>
+                    <div class="forgot-password">
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                </div>
+                
+                <div id="button-login">
+                    <input type="submit" id="add-user" name="add" value="Login">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
